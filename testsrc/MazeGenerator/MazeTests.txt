@@ -1,0 +1,23 @@
+Regular Test Cases:
+- Test creating a maze with less than 10 columns
+- Test creating a maze with more than 50 columns
+- Test creating cells objects within a maze with less than 10 rows and columns
+- Test creating cells objects within a maze with more than 50 rows and columns
+- Test creating starting cell and ending cell within a maze
+- Test update cell borders method
+- Test reset visited cells method
+- Test setters for maze name, author, date created, and date edited
+
+Boundary Test Cases:
+- Test creating a maze with 1 column and 1 row
+- Test creating cells objects within a maze that has 1 column and 1 row
+- Test creating a maze with the lowest difficulty
+- Test creating a maze with the hardest difficulty
+- Test setting starting cell at top left and ending cell at bottom right
+- Test setting a same cell as both starting cell and ending cell
+
+
+Exceptional Test Cases:
+- Test constructing a maze with negative number of columns
+- Test constructing a maze with negative number of rows
+- Test setting starting cell and ending cell out of bounds

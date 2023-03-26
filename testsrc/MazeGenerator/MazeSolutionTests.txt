@@ -1,0 +1,11 @@
+Regular Test Cases:
+- Test setting the starting point and end point at a random location within the bounds of the maze
+- Test if a solution is successfully generated
+
+Boundary Test Cases:
+- Test with two maze solutions
+- Test with two maze solutions, destroyed one first
+
+
+Exceptional Test Cases:
+- Test traverse to next cell in a single cell maze
