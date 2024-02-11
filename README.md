@@ -1,15 +1,57 @@
-# Maze-Generator-Solver
-## ABOUT: 
 
-This software was developed through the collaboration of the members in Group_97. This application is for the automatic generation of mazes with producible solutions.
+# Gold Price Prediction App
 
-Java is used as the main programming language for the application, and Java Swing is used for GUI development. MariaDB is the database management system in use. JUnit testing is used to verify the application's functionality.
+The Maze-Generator-Solver Java Application is designed to automatically generate mazes with solvable paths. It utilizes Java as the primary programming language, Java Swing for GUI development, complex algorithms for creating and solving mazes, and MariaDB for database management. JUnit testing is integrated to ensure the application's functionality.
+## Screenshots
 
-Users can customise the maze's size and complexity using the maze generator, which creates a maze using a recursive backtracking method. The GUI shows a solved maze with the solution path highlighted.
+![maze-project](https://github.com/cyrusnguyen/Maze-Generator-Solver/assets/52537523/bb02e8eb-5aa0-4efe-bfb4-4473fbb2f187)
 
-Algorithm depth-first search is supported by the application's solver. To store information on mazes and solvers, the application uses the dependable database management system MariaDB. All application users can effectively maintain and retrieve their data thanks to this.
 
-To guarantee that the application's whole functionality operates without glitches and accurately, JUnit is used to conduct thorough automated tests on the application. This guarantees the application will be of the finest quality and reliability.
 
-## BEFORE USE: 
-In order to use the database functionality of this application please update the attached file, 'db.props' with your respective driver properties. No initialisation of tables is required for the functionality of this software.
+## Tech Stack
+
+- Java
+- Java Swing
+- MariaDB
+- JUnit
+
+
+
+## Features
+
+- Maze Generation: Users can customize maze size and complexity using the maze generator, which employs a recursive backtracking method.
+- Solver Algorithm: The application supports a depth-first search algorithm for solving mazes and finding optimal paths.
+- GUI Display: The GUI displays solved mazes with highlighted solution paths for user visualization.
+- Database Management: MariaDB is used to store information on mazes and solvers, facilitating data retrieval and management for all users.
+- Automated Testing: JUnit is utilized for comprehensive automated tests, ensuring the application's reliability and functionality.
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/cyrusnguyen/Maze-Generator-Solver
+```
+
+Go to the project directory
+
+```bash
+  cd Maze-Generator-Solver
+```
+
+- Ensure you have Java and MariaDB installed on your system.
+
+- Update the db.props file with your respective driver properties for MariaDB.
+
+- Run the application using your preferred IDE or by compiling and executing the main Java file.
+
+- Use the GUI interface to generate mazes, solve them, and explore the functionality of the application.
+
+
+
+
+
+## Database Configuration
+Before utilizing the database functionality of this application, ensure to update the db.props file with your database driver properties. No initialization of tables is required for the functionality of this software.
+## Testing
+
+- JUnit is utilized to conduct comprehensive automated tests on the application, ensuring its functionality operates without glitches and with accuracy. This guarantees the application's quality and reliability.
